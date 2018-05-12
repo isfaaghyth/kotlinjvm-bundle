@@ -6,7 +6,7 @@ import learn.network.Network
 import learn.network.Routes
 import retrofit2.HttpException
 
-class BasePresenter<V: BaseView>: BasePresenterInt<V> {
+open class BasePresenter<V: BaseView>: BasePresenterInt<V> {
 
     private lateinit var view: V
     private lateinit var routes: Routes

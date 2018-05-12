@@ -9,7 +9,7 @@ class Network {
     companion object {
         val builder: Retrofit by lazy {
             Retrofit.Builder()
-                    .baseUrl("")
+                    .baseUrl("https://api.github.com/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                     .build()
