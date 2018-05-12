@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff042a0-aa09-4638-afbd-682fbc548547" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/learn/base/BaseActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/learn/base/BasePresenter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/learn/base/BasePresenterImp.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/learn/base/BaseView.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/learn/network/Network.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/learn/network/Routes.kt" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Dagger2.iml" afterPath="$PROJECT_DIR$/KtStarter.iml" />
-      <change beforePath="$PROJECT_DIR$/src/learn/Main.kt" afterPath="$PROJECT_DIR$/src/learn/ui/Main.kt" />
+      <change beforePath="$PROJECT_DIR$/src/learn/base/BasePresenter.kt" afterPath="$PROJECT_DIR$/src/learn/base/BasePresenter.kt" />
+      <change beforePath="$PROJECT_DIR$/src/learn/base/BasePresenterImp.kt" afterPath="$PROJECT_DIR$/src/learn/base/BasePresenterInt.kt" />
+      <change beforePath="$PROJECT_DIR$/src/learn/base/BaseView.kt" afterPath="$PROJECT_DIR$/src/learn/base/BaseView.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,18 +29,18 @@
       <file leaf-file-name="BasePresenter.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Routes.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Routes.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learn/network/Routes.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,8 +59,8 @@
       <file leaf-file-name="BaseView.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learn/base/BaseView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -84,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePresenterImp.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenterImp.kt">
+      <file leaf-file-name="BasePresenterInt.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenterInt.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -118,8 +110,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.kt" />
         <option value="$PROJECT_DIR$/src/learn/Main.kt" />
-        <option value="$PROJECT_DIR$/src/learn/base/BasePresenter.kt" />
         <option value="$PROJECT_DIR$/src/learn/network/Routes.kt" />
+        <option value="$PROJECT_DIR$/src/learn/base/BaseView.kt" />
+        <option value="$PROJECT_DIR$/src/learn/base/BasePresenter.kt" />
+        <option value="$PROJECT_DIR$/src/learn/base/BasePresenterInt.kt" />
       </list>
     </option>
   </component>
@@ -151,43 +145,43 @@
         <subPane>
           <expand>
             <path>
-              <item name="Dagger2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="KtStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KtStarter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Dagger2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="KtStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KtStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Dagger2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="KtStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KtStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Dagger2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="KtStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KtStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Dagger2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="KtStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KtStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Dagger2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="KtStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KtStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Dagger2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KtStarter" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -435,7 +429,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenterImp.kt">
+    <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenterInt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
@@ -459,34 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/learn/base/BaseView.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/learn/base/BaseActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenterImp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -502,7 +472,31 @@
     <entry file="file://$PROJECT_DIR$/src/learn/network/Routes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/base/BaseView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learn/base/BasePresenterInt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>

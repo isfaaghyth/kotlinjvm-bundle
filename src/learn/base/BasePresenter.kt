@@ -1,4 +1,4 @@
 package learn.base
 
-interface BasePresenter {
+class BasePresenter {
 }
