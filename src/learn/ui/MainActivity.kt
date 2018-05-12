@@ -11,12 +11,12 @@ class MainActivity: BaseActivity<MainView>(), MainView {
 
     companion object {
         fun content(main: MainActivity) {
-            main.presenter.handleError(Throwable("yt"))
+            (main.presenter as MainPresenter).reqExample()
         }
     }
 
     override fun result(github: Github) {
-
+        println(github.login)
     }
 
 }
