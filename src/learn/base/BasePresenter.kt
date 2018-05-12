@@ -4,6 +4,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import learn.network.Network
 import learn.network.Routes
+import retrofit2.HttpException
 
 class BasePresenter<V: BaseView>: BasePresenterInt<V> {
 
@@ -33,8 +34,13 @@ class BasePresenter<V: BaseView>: BasePresenterInt<V> {
         composite.add(disposable)
     }
 
-    override fun handleError() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun handleError(error: Throwable) {
+        if (error is HttpException) {
+            when(error.code()) {
+                408 -> view.onError("RTO")
+                else -> view.onError("Gagal")
+            }
+        }
     }
 
 }
