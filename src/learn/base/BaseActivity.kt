@@ -1,8 +1,6 @@
 package learn.base
 
-open abstract class BaseActivity<V>: BaseView {
-
-    protected lateinit var presenter: BasePresenterInt<V>
+open class BaseActivity<V>: BaseView {
 
     override fun showLoading() {
         println("showLoading();")

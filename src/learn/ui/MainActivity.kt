@@ -5,14 +5,14 @@ import learn.data.Github
 
 class MainActivity: BaseActivity<MainView>(), MainView {
 
+    private val presenter: MainPresenterInt
+
     init {
         presenter = MainPresenter(this)
     }
 
-    companion object {
-        fun content(main: MainActivity) {
-            (main.presenter as MainPresenter).reqExample()
-        }
+    fun content() {
+        presenter.reqExample()
     }
 
     override fun result(github: Github) {

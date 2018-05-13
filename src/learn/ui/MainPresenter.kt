@@ -4,13 +4,13 @@ import learn.base.BasePresenter
 import learn.data.Github
 import learn.utils.ComposeUtils
 
-class MainPresenter(view: MainView): BasePresenter<MainView>() {
+class MainPresenter(view: MainView): BasePresenter<MainView>(), MainPresenterInt {
 
     init {
         super.attachView(view)
     }
 
-    fun reqExample() {
+    override fun reqExample() {
         subscribe(
                 getService().exampleRequest()
                         .compose(ComposeUtils.set<Github>())
