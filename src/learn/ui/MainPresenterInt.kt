@@ -2,6 +2,6 @@ package learn.ui
 
 import learn.base.BasePresenterInt
 
-interface MainPresenterInt: BasePresenterInt<MainView> {
+interface MainPresenterInt<V: MainView>: BasePresenterInt<V> {
     fun reqExample()
 }

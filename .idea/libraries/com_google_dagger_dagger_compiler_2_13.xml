@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="com.google.dagger:dagger-compiler:2.13" type="repository">
+    <properties maven-id="com.google.dagger:dagger-compiler:2.13" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger-compiler/2.13/dagger-compiler-2.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.13/dagger-2.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger-producers/2.13/dagger-producers-2.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/googlejavaformat/google-java-format/1.4/google-java-format-1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.8.0/javapoet-1.8.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
