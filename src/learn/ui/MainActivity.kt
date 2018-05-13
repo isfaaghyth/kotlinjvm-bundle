@@ -1,23 +1,21 @@
 package learn.ui
 
+import io.reactivex.disposables.CompositeDisposable
 import learn.base.BaseActivity
 import learn.data.Github
-import learn.di.component.AppComponent
-import javax.inject.Inject
+import learn.network.Network
+import learn.network.Routes
 
 class MainActivity: BaseActivity<MainView>(), MainView {
 
-    @Inject
-    internal lateinit var presenter: MainPresenterInt<MainView>
-
-    private lateinit var component: AppComponent
+    var presenter: MainPresenterInt<MainView> = MainPresenter(this, Network.builder.create(Routes::class.java), CompositeDisposable())
 
     fun content() {
         presenter.reqExample()
     }
 
     override fun result(github: Github) {
-        println(github.login)
+        println("RESULT => ${github.login}")
     }
 
 }

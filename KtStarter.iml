@@ -8,13 +8,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="library" name="com.google.dagger:dagger:2.14" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:retrofit:2.4.0" level="project" />
-    <orderEntry type="library" name="com.squareup.retrofit2:adapter-rxjava:2.4.0" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:converter-gson:2.4.0" level="project" />
     <orderEntry type="library" name="io.reactivex.rxjava2:rxjava:2.1.13" level="project" />
     <orderEntry type="library" name="com.google.code.gson:gson:2.8.3" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:adapter-rxjava2:2.4.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="com.google.dagger:dagger-compiler:2.13" level="project" />
+    <orderEntry type="library" name="com.google.dagger:dagger:2.13" level="project" />
   </component>
 </module>

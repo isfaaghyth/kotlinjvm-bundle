@@ -12,8 +12,13 @@ import learn.ui.MainView
 @Module
 class AppModule {
 
+    /**
+     * presenter
+     */
     @Provides
     fun provideMainPresenter(presenter: MainPresenter): MainPresenterInt<MainView> = presenter
+
+
 
     @Provides
     fun provideCompositeDisposable(): CompositeDisposable = CompositeDisposable()
