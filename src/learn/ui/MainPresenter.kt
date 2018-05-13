@@ -1,8 +1,7 @@
 package learn.ui
 
+import io.reactivex.schedulers.Schedulers
 import learn.base.BasePresenter
-import learn.data.Github
-import learn.utils.ComposeUtils
 
 class MainPresenter(view: MainView): BasePresenter<MainView>(), MainPresenterInt {
 
@@ -11,12 +10,19 @@ class MainPresenter(view: MainView): BasePresenter<MainView>(), MainPresenterInt
     }
 
     override fun reqExample() {
+        view().showLoading()
         subscribe(
                 getService().exampleRequest()
-                        .compose(ComposeUtils.set<Github>())
+                        .observeOn(Schedulers.io())
                         .subscribe(
-                                { res -> view().result(res) },
-                                { err -> err.message?.let { view().onError(it) } }
+                                { res -> kotlin.run {
+                                    view().hideLoading()
+                                    view().result(res)
+                                } },
+                                { err -> err.message?.let {
+                                    view().hideLoading()
+                                    view().onError(it)
+                                } }
                         )
         )
     }
